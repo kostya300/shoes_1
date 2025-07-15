@@ -1,0 +1,75 @@
+.price_block{
+    position: absolute;
+    width: 345px;
+    height: 330px;
+    // background-color: rgb(236, 165, 72);
+    margin-top: 181px;
+    margin-left: 50px;
+    & h1{
+    font-family: var(--font-accent);
+font-weight: 600;
+font-size: 50px;
+line-height: 100%;
+letter-spacing: 0%;
+padding: 12px 18px;
+text-wrap: nowrap;
+    }
+    & h2{
+        font-family: var(--font-accent);
+font-weight: 300;
+font-style: Light;
+font-size: 80px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: capitalize;
+padding: 0px 18px;
+color: rgba(252, 113, 45, 1);
+    }
+    & p{
+        width: 324px;
+        height: 115px;
+    font-family: var(--font-accent);
+font-weight: 400;
+font-style: Regular;
+font-size: 12.5px;
+line-height: 150%;
+letter-spacing: 0.1px;
+padding: 8px 18px;
+    }
+    & h3{
+        font-family: var(--font-accent);
+font-weight: 300;
+font-style: Light;
+font-size: 41px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: rgba(41, 41, 41, 1);
+padding: 9px 17px;
+    }
+    & button{
+        position: absolute;
+        margin: 0 auto;
+        display: block;
+        width: 116px;
+        height: 46px;
+        background: rgba(240, 240, 240, 1);
+        color: rgba(41, 41, 41, 1);
+        left: 136px;
+        top: 274px;
+        border-radius: 21px;
+        padding: 10px 1px 10px 1px;
+        box-shadow: 4px 6px 10px 0px rgba(0, 0, 0, 0.25);
+        font-family: var(--font-accent);
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+
+    }
+    & button:hover{
+        background-color: rgb(216, 226, 226);
+    }
+}

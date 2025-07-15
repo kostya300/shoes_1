@@ -1,0 +1,26 @@
+:root {
+	--container-width: 1154px;
+	--container-width1: 1299px;
+	--container-padding: 22px;
+	// --container-height: 800px;
+
+	--font-main: 'Inter', sans-serif;
+	--font-accent: 'Kanit', sans-serif;
+	--font-accent2: 'Londrina Shadow' ,sans-serif;
+
+	--page-bg: #fff;
+	--text-color: #000;
+	--accent: #ac182c;
+
+    --laptop-size: 1199px;
+	--tablet-size: 959px;
+	--mobile-size: 599px;
+
+	--yellow: #FFAB00;
+	--tagline-link: #FFAB00;
+}
+
+.dark {
+    --page-bg: #252526;
+    --text-color: #fff;
+}
